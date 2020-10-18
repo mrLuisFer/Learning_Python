@@ -47,6 +47,7 @@ elif maths == 'complex' or maths == 'c':
     operation = input('Please insert an operation to do: ')
     lowerOperation = operation.lower()
 
+    # Todo- Do with modules
     if lowerOperation == 'perimeter' or lowerOperation == 'p':
       print('The length and width are required')
       w = input('Please insert the width: ')

@@ -1,7 +1,8 @@
+# HI! :D
 print('Hi, Welcome to this Basic Calculator')
 
-maths = input('What operations do you want to do? \n Basics? "b" \n Complex? "c": ')
-maths.lower()
+mathsOperations = input('What operations do you want to do? \n Basics? "b" \n Complex? "c": ')
+maths = mathsOperations.lower()
 
 if maths == 'basics' or maths == 'b':
   a = input('Insert one number: ')
